@@ -1,0 +1,105 @@
+/*栏目推送*/
+.typeColumnPush{
+  width: 100%;
+  height: 490px;
+  margin: 0 auto 20px;
+}
+.typeColumnPush img {
+  width: 100%;
+  height: 490px;
+}
+/** 主要类型筛选*/
+.typeFiltrate {
+  width: 90%;
+  height: 300px;
+  background-color: #f2f2f2;
+  margin: 120px 5.5% 10px;
+}
+.typeFiltrate div{
+  overflow: hidden;
+}
+.typeFiltrate div li{
+  float: left;
+  display: inline-block;
+  font-size: 13px;
+  text-align: center;
+  margin: 10px 0 5px 20px;
+}
+/*第一位li设计*/
+.typeFiltrate div li:first-child{
+  display: inline-block;
+  color: #0066ff;
+  text-align: center;
+  background-color: #66ccff;
+  border: 1px solid #78C3F3;
+  border-radius: 50px;
+  padding: 2px 8px 3px 8px;
+  margin: 10px 20px 10px 20px;
+}
+/* 筛选后的样式*/
+.typeFiltrate-list{
+  display: block;
+  color: #fff;
+  background-color: #4972FF;
+  border-radius: 50px ;
+  border: 1px solid #78C3F3;
+  padding: 2px 8px 3px 8px;
+}
+/*  筛选‘类型’的样式*/
+.typeFiltrate-tow{
+  padding-right: 150px;
+}
+
+/*精选类型推送*/
+.overallPush{
+  overflow: hidden;
+  width: 91%;
+  /*border: 1px solid #000000;*/
+  margin-left: 5.5%;
+}
+.overallPush-one{
+  margin-top: 10px;
+}
+.overallPush li{
+  float: left;
+  overflow: hidden;
+  width: 185px;
+  height: 290px;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-right: 19px;
+  margin-top: 20px;
+}
+
+.overallPush a{
+  display: inline-block;
+  margin: 3px auto 3px auto;
+}
+/*图片样式设计*/
+.choicenessImg{
+  width: 100%;
+  height: 80%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+/*锚点设计*/
+.anchorTop{
+  position: fixed;
+  top: 500px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #f2f2f2;
+}
+.anchorTop a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+/*底层*/
+.footer{
+  clear: left;
+  width: 100%;
+  background-color: aqua;
+}

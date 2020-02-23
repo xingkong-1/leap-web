@@ -1,0 +1,234 @@
+li{
+  list-style-type: none;
+}
+#userInfo div{
+  float: left;
+}
+/* 侧栏，功能区*/
+.sidebarMessage{
+  width: 300px;
+  height: 600px;
+  background-color: #F5F5F5;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+/* 用户切换账号*/
+.switchover{
+  width: 100%;
+  height: 190px;
+  text-align: center;
+  background-color: cornsilk;
+}
+/* 切换账号a标签样式*/
+.switchoverID{
+  display: inline-block;
+  position: absolute;
+  top: 90px;
+  left: 125px;
+  width: 90px;
+  height: 90px;
+  color: #fff;
+  text-align: center;
+  line-height: 550%;
+  outline: none;
+  opacity: 0.8;
+  background-color: #696969;
+  border-radius: 50%;
+}
+.switchover img{
+  width: 90px;
+  height: 90px;
+  /*border: 1px solid ;*/
+  outline: none;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+
+/* 功能侧栏*/
+.sidebarFun{
+  width: 100%;
+  margin-top: 10px;
+}
+.sidebarFun li{
+  width: 100%;
+  height: 50px;
+  margin-top: 1px;
+  /*border: 1px solid #ff0000;*/
+}
+.sidebarFun li a{
+  display: inline-block;
+  width: 80%;
+  height: 30px;
+  font-size: 18px;
+  margin: 15px 0 0 40px;
+  padding-top: 7px;
+  /*background-color: #ffb821;*/
+}
+.sidebarFun li a:hover{
+  /*color: #ffb821;*/
+  background-color: #FFE4B5;
+}
+
+
+/*内容主体*/
+.mainMessage{
+  width: 70%;
+  height: 1000px;
+  background-color: #F0F8FF;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+/*用户信息*/
+.userData,.updateUserInfo{
+  width: 500px;
+  height: 500px;
+  background-color: #FFF8DC;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.userData li,.updateUserInfo li{
+  width: 100%;
+  height: 33px;
+  /*border: 1px solid #6A5ACD;*/
+  padding-top: 10px;
+}
+.userData input{
+  position: relative;
+  left: 450px;
+  width: 50px;
+  height: 30px;
+}
+.userData li span{
+  display: inline-block;
+  margin-left: 10px;
+}
+/*用户信息修改*/
+.updateUserInfo{
+  position: absolute;
+  top: 70px;
+  left: 331px;
+  height: 400px;
+}
+/*历史记录*/
+.historyPlayPlay{
+  width: 100%;
+  margin: 1px 0 1px 0;
+}
+.historyContainer{
+  width: 100%;
+  height: 200px;
+  margin-top: 5px;
+}
+.historyDate{
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+}
+/*内容*/
+.historyContent{
+  float: left;
+  width: 165px;
+  height: 170px;
+  font-size: 15px;
+  margin-left: 1px;
+}
+.historyContent li{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.historyContent li img{
+  width: 150px;
+  height: 110px;
+
+}
+.historyContent li a{
+  /*margin-left: 30px;*/
+}
+.historyContent li span{
+  font-size: 12px;
+}
+/*收藏*/
+.enshrine{
+  width: 100%;
+}
+/*评论*/
+.comment{
+  width: 100%;
+}
+.commentContent{
+  width: 90%;
+  /*background-color: yellow;*/
+  border-bottom: 1px solid #B7B7B7;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+.commentContent:last-of-type{
+  border-bottom: 0 solid;
+}
+/*全部评论*/
+.commentTotal{
+  width: 100%;
+  height: 30px;
+  /*background-color: #ffb821;*/
+  margin-top: 5px;
+}
+.commentTotal li{
+  float: right;
+  margin-right: 15px;
+}
+/*评论内容*/
+.content{
+  width: 100%;
+}
+.content div{
+  /*border: 1px solid;*/
+  margin-left: 10px;
+}
+/*评论底部*/
+.commentBottom{
+  width: 100%;
+  color: #A0A0A0;
+  font-size: 12px;
+  margin-top: 25px;
+}
+.commentBottom li{
+  float: left;
+  margin-left: 10px;
+}
+.commentBottom li:nth-child(5){
+  margin-left: 530px;
+  /*margin-right: 10px;*/
+}
+/*消息*/
+.message{
+  width: 100%;
+}
+.commentTotal{
+  float: right;
+  width: 100%;
+}
+/*消息内容*/
+.message-list{
+  display: block;
+  clear: right;
+  width: 90%;
+  border-bottom: 1px solid #B7B7B7;
+  margin: 0  0 20px 40px;
+  padding-bottom: 25px;
+  /*padding-bottom: 20px;*/
+}
+.message-list:last-of-type{
+  border-bottom: 0;
+}
+
+.message-list div{
+  margin: 10px 0 20px 10px;;
+}
+.ground{
+  float: right;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-right: 20px;
+}

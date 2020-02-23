@@ -1,0 +1,124 @@
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+.backgroundLogo{
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 200px;
+}
+
+.admin-video-navigation input[type=text]{
+  width: 340px;
+  height: 33px;
+  font-size: 18px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.admin-video-navigation input[type=button]{
+  width: 70px;
+  height: 39px;
+  color: #fff;
+  margin-left: -5px;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  border-radius: 2px;
+  background-color: #0066ff;
+  margin-right: 250px;
+}
+
+.admin-video-navigation a{
+  font-size: 20px;
+}
+
+/** 主要类型筛选*/
+.backgroundTypeFiltrate {
+  width: 99.9%;
+  height: 255px;
+  background-color: #f2f2f2;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+.backgroundTypeFiltrate div{
+  overflow: hidden;
+}
+.backgroundTypeFiltrate div li{
+  float: left;
+  display: inline-block;
+  font-size: 13px;
+  text-align: center;
+  margin: 10px 0 5px 20px;
+}
+/*第一位li设计*/
+.backgroundTypeFiltrate div li:first-child{
+  display: inline-block;
+  color: #0066ff;
+  text-align: center;
+  background-color: #66ccff;
+  border: 1px solid #78C3F3;
+  border-radius: 50px;
+  padding: 2px 8px 3px 8px;
+  margin: 10px 20px 10px 20px;
+}
+/* 筛选后的样式*/
+.typeFiltrate-list{
+  display: block;
+  color: #fff;
+  /*background-color: #4972FF;*/
+  border-radius: 50px ;
+  border: 1px solid #78C3F3;
+  padding: 2px 8px 3px 8px;
+}
+/*  筛选‘类型’的样式*/
+.typeFiltrate-tow{
+  padding-right: 150px;
+}
+.mainInterface{
+  /*width: 98.9%;*/
+  /*background-color: #AADFFD;*/
+}
+
+/*数据显示容器*/
+.videoVessel{
+  height: 600px;
+  width:99.6%;
+  /*background-color: #87CEFA;*/
+}
+/*数据显示区*/
+.videoData{
+  /*height: 550px;*/
+  /*background-color: #f2f2f2;*/
+}
+.mark{
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #000000;
+  border-right: 2px solid #000000;
+  margin-top: 1px;
+  color: #ff0000;
+  /*margin-bottom: 2px;*/
+}
+.mark li,.videoData div li{
+  float: left;
+  width: 9.91%;
+  height: 100%;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #000000;
+  border-right: 0 solid;
+}
+.mark li:first-child{
+  border-right: 0 solid;
+}
+.mark li{
+  font-weight: normal;
+}
+.mark li input[type=button]{
+  color: #000000;
+}

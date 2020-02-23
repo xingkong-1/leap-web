@@ -1,0 +1,86 @@
+li{
+  list-style-type: none;
+}
+a{
+  color: #000000;
+}
+a:hover{
+  color: #ffb821;
+}
+  /* 电视分类 */
+.user-ty-type {
+  position: fixed;
+  z-index: 2;
+  font-family: 黑体, serif;
+  font-weight: bold;
+  color: black;
+  top: 68px;
+  width: 100%;
+  height: 40px;
+  opacity: 0.9;
+  background-color: #f2f2f2;
+}
+.user-ty-type li:first-child {
+  margin-left: 185px;
+}
+.user-ty-type li {
+  float: left;
+  margin-left: 25px;
+  margin-top: 8px;
+}
+
+/* 推送 */
+.user-ty-broadcast{
+  height: 50px;
+  background-color: darkkhaki;
+}
+
+.user-ty-broadcast li{
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  background-color: #ffb821;
+  border: 1px none #ffffff;
+  border-radius: 40px;
+  margin-left: 10px;
+  padding: 0.7% 2%;
+}
+.user-ty-broadcast li:first-child{
+  margin-left: 60px;
+}
+
+/* 热剧推送 */
+.user-ty-video-push {
+  width: 1349px;
+  height: 800px;
+  background-color: aqua;
+}
+.user-ty-video-push-hot-show{
+  overflow: hidden;
+  width: 1000px;
+  background-color: #fff;
+  padding-left: 50px;
+}
+
+.user-ty-video-push-hot-show-four{
+  background-color: black;
+}
+
+.user-ty-video-push-hot-show li{
+  float: left;
+  width: 200px;
+  height: 300px;
+  background-color: #f2f2f2;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+/* 背景图片 */
+.user-ty-video-push-hot-show li a:first-child{
+  display: block;
+  height: 80%;
+  background-image: url("../../assets/img/ty1.jpg");
+  background-repeat: no-repeat ;
+  background-color: #ffff00;
+  background-size: cover;
+}
