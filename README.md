@@ -1,8 +1,7 @@
-# leap
+＃飞跃
+Vue前端项目《leap-web》
 
-> leap
-
-## Build Setup
+##构建设置
 
 ``` bash
 # install dependencies
