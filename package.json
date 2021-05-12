@@ -16,7 +16,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.8",
     "pubsub-js": "^1.7.0",
     "qs": "^6.9.1",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "video.js": "^7.6.6",
     "vue": "^2.5.2",
     "vue-swiper-component": "^2.1.3",
